@@ -1,21 +1,13 @@
 {
-  "name": "es6_learning",
+  "name": "l1_generator",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "start": "lsof -i:8080 | grep node | awk '{ print \"kill -9 \" $2}' | sh | webpack --mode development --env development | webpack-dev-server --open --hot --progress --disableHostCheck --port 8080"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/SeedHuang/ES6_Learning.git"
-  },
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/SeedHuang/ES6_Learning/issues"
-  },
-  "homepage": "https://github.com/SeedHuang/ES6_Learning#readme",
   "devDependencies": {
     "@babel/core": "^7.2.2",
     "@babel/plugin-transform-runtime": "^7.2.0",
