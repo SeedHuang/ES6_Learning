@@ -12,5 +12,5 @@ function ajax(url, isErrorCase) {
     }, 1000);
   })
 }
-
+console.log('123')
 export default ajax;
